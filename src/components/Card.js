@@ -31,8 +31,9 @@ export const Card = () => {
       </button>
       { <p> {state.color} {state.number} </p>}
 
-
-        <img src="Assets/Blue_0.png" className="blue card" alt="" /> */}
+      const sourcelink = Assets/{state.color}_{state.number}.png
+        {/*use something like line 34 to make the link dynamic somehow...  */}
+        <img src="Assets/Blue_0.png" className="card" alt="" />
 
             </div>
      );
